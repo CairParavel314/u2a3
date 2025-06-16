@@ -62,5 +62,13 @@ offset_right = 331.0
 offset_bottom = 151.0
 text = "Gilberto Lomeli"
 
+[node name="Label2" type="Label" parent="."]
+offset_left = 302.0
+offset_top = 9.0
+offset_right = 366.0
+offset_bottom = 46.0
+text = "Karol Hernandez
+"
+
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
 [connection signal="body_entered" from="door" to="Personaje" method="_on_door_body_entered"]
