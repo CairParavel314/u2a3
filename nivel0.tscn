@@ -70,5 +70,12 @@ offset_bottom = 46.0
 text = "Karol Hernandez
 "
 
+[node name="PoloValdivia" type="Label" parent="."]
+offset_left = 133.0
+offset_top = 87.0
+offset_right = 236.0
+offset_bottom = 110.0
+text = "PoLo Valdivia"
+
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
 [connection signal="body_entered" from="door" to="Personaje" method="_on_door_body_entered"]
