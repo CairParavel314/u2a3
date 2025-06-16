@@ -54,5 +54,12 @@ offset_right = 257.0
 offset_bottom = 14.0
 text = "Carlos Alberto Iriarte Martinez"
 
+[node name="LABELLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL" type="Label" parent="."]
+offset_left = 203.0
+offset_top = 31.0
+offset_right = 442.0
+offset_bottom = 54.0
+text = "Diego Eduardo Velasco Basulto"
+
 [connection signal="body_entered" from="reset_area" to="Personaje" method="_on_reset_area_body_entered"]
 [connection signal="body_entered" from="door" to="Personaje" method="_on_door_body_entered"]
